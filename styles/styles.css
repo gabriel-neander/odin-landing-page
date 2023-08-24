@@ -9,6 +9,10 @@ a:hover {
 a:visited {
     color:#3882F6
 }
+#middle a{
+    color: #000;
+    font-weight: 400;
+}
 /* Header */
 body {
     font-family: 'Roboto', sans-serif;
@@ -19,7 +23,6 @@ header {
     margin: -8px;
     padding: 0;
     overflow: auto;
-    position: relative;
 }
 
 header h2 {
@@ -50,7 +53,7 @@ header #logo {
 #banner{
     display: flex;
     justify-content: space-around;
-    margin-top: -20px;
+    align-items: center;
     padding: 0 0 50px 0;
 }
 #banner td {
@@ -82,7 +85,57 @@ header #logo {
 }
 #banner #bimg {
     background-image: url("images/city.jpg");
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
+}
+/* Middle info */
+#info {
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    
+}
+#middle {
+    margin: -8px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 30px 0;
+}
+#middle table td {
+    padding: 50px;
+    border: 2px solid #3576e0;
+    border-radius: 15px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#middle table tr td:hover {
+    border: 2px solid #285eb4
+}
+#middle .spacer {
+    border: 0px;
+    padding: 10px;
+}
+#middle .spacer:hover {
+    opacity: 0;
+    border: 0px;
+}
+#middle #desc-middle td {
+    border: 0px;
+    padding: 0;
+    max-width: 50px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color:rgb(61, 61, 60)
+}
+#middle #desc-middle td:hover {
+    opacity: 1;
+}
+.dhover:hover {
+    opacity: 0.5;
 }
