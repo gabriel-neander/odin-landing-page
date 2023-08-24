@@ -186,3 +186,12 @@ header #logo {
     border: 3px solid #fff;
     margin-top: 20px;
 }
+footer {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    margin: -8px;
+    padding: 30px;
+}
