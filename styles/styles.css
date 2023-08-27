@@ -29,6 +29,13 @@ a:hover {
 a:visited {
     color:#3882F6
 }
+footer a {
+    margin-left: 5px;
+}
+footer a:visited {
+    color: #fff;
+}
+}
 #middle a{
     color: #000;
     font-weight: 400;
@@ -187,15 +194,14 @@ header #logo {
     margin-top: 20px;
 }
 footer {
-    position: fixed;
+    position:static;
     left: 0;
     bottom: 0;
-    width: 100%;
     color: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #1F2937;
-    margin: 0px;
+    margin: -8px;
     padding: 30px;
 }
